@@ -1,0 +1,27 @@
+.tarjeta {
+    width: 400px;
+    height: max-content;
+    border: 1px solid black;
+}
+
+.nombre-de-usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion > p {
+    text-align: center;
+}
+
+.firma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
