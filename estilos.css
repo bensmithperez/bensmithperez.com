@@ -62,7 +62,44 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 15px;
     text-decoration: none;
+    color: white;
+}
+
+.boton-tiktok {
+    background-color: #000000;
+}
+
+.boton-youtube {
+    background-color: #FF0000;
+}
+
+.boton-twitter {
+    background-color: #1A8CD8;
+}
+
+.boton-instagram {
+    background-color: #F1C057;
+}
+
+.boton-facebook {
+    background-color: #1877F2;
+}
+
+.boton-github {
+    background-color: #23272D;
+}
+
+.boton-linkedin {
+    background-color: #026EAA;
+}
+
+.boton-paypal {
+    background-color: #032D7F;
+}
+
+.boton-cashapp {
+    background-color: #00CB2F;
 }
