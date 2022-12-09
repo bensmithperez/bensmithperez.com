@@ -103,3 +103,36 @@ main {
 .boton-cashapp {
     background-color: #00CB2F;
 }
+
+@media (min-width: 900px){
+    .tarjeta {
+        max-width: 900px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+
+    .descripcion {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .nombre-de-usuario {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .botones-redes-sociales {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+
+    .firma {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .boton-tiktok {
+        border-top-right-radius: 15px;
+    }
+}
