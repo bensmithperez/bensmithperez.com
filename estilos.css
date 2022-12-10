@@ -104,8 +104,14 @@ main {
     background-color: #00CB2F;
 }
 
-@media (min-width: 900px){
+@media (min-width: 900px) {
+    main {
+        min-height: 100vh;
+        justify-content: center;
+    }
+
     .tarjeta {
+        margin-top: 0px;
         max-width: 900px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -113,6 +119,7 @@ main {
     }
 
     .descripcion {
+        flex-direction: column-reverse;
         grid-column: 1/2;
         grid-row: 1/2;
     }
