@@ -12,6 +12,25 @@ main {
     align-items: center;
 }
 
+.fondo {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.fondo_parte-azul {
+    width: 100%;
+    height: 40%;
+    background-color: #555EFF;
+}
+
+.fondo_parte-blanca {
+    width: 100%;
+    height: 60%;
+    background-color: white;
+}
+
 .tarjeta {
     max-width: 400px;
     height: max-content;
@@ -20,6 +39,7 @@ main {
     /* padding: 15px 20px; */
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
 }
 
 .nombre-de-usuario {
